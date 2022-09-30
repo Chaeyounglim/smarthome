@@ -4,14 +4,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
-
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24"
-        android:background="@color/white"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="#FFFFFF"/>

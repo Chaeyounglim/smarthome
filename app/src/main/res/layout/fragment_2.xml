@@ -46,11 +46,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/local2"
+                    android:id="@+id/local"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="서울특별시 종로구"
+                    android:text="서울특별시 "
                     android:textSize="16sp" />
 
                 <View
@@ -92,14 +92,15 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="현재 날씨"
-                                android:textSize="16sp" />
+                                android:textSize="16sp"
+                                android:layout_marginBottom="24dp"/>
 
                             <ImageView
-                                android:id="@+id/imageView7"
+                                android:id="@+id/weatherCast"
                                 android:layout_margin="8dp"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/cold" />
+                                app:srcCompat="@drawable/cloud" />
 
                         </LinearLayout>
 
@@ -120,7 +121,7 @@
                             android:layout_margin="8dp"
                             android:layout_marginRight="16dp"
                             android:layout_weight="2"
-                            android:text="미세먼지"
+                            android:text="미세먼지 등급"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -132,7 +133,7 @@
                             android:layout_margin="8dp"
                             android:layout_marginRight="16dp"
                             android:layout_weight="2"
-                            android:text="초미세먼지"
+                            android:text="미세먼지 수치"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -196,56 +197,56 @@
                         android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outPM10"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="미세먼지"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outPM25"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="초미세먼지"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outNow"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="현재 날씨"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outRain"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="강수확률"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outHumid"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="습도"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -253,12 +254,12 @@
                         android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/outTemp"
                             android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="온도"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -296,11 +297,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/local"
+                    android:id="@+id/local2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="서울특별시 종로구"
+                    android:text="서울특별시 "
                     android:textSize="16sp" />
 
                 <View
@@ -341,15 +342,17 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="미세먼지 등급"
+                                android:text="미세먼지"
                                 android:textSize="16sp" />
 
                             <ImageView
-                                android:id="@+id/imageView8"
-                                android:layout_margin="8dp"
+                                android:id="@+id/dustGrade"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/door" />
+                                android:layout_margin="8dp"
+                                app:srcCompat="@drawable/soso" />
+
+
 
                         </LinearLayout>
 
@@ -369,7 +372,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_marginRight="16dp"
-                            android:text="미세먼지"
+                            android:text="미세먼지 등급"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -380,7 +383,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_marginRight="16dp"
-                            android:text="초미세먼지"
+                            android:text="미세먼지 수치"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -420,46 +423,46 @@
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/inPM10"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="미세먼지"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/inPM25"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="초미세먼지"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/inHumid"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="습도"
                             android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow android:background="@drawable/table_border2">
 
                         <TextView
+                            android:id="@+id/inTemp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_weight="4"
                             android:gravity="right"
-                            android:text="온도"
                             android:textSize="16sp" />
                     </TableRow>
 

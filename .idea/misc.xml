@@ -3,19 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.196" />
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2345" />
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/table_boder.xml" value="0.1235" />
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/table_border.xml" value="0.2" />
-        <entry key="..\:/smarthome08072/app/src/main/res/drawable/table_border2.xml" value="0.1965" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/activity_control.xml" value="0.2" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/activity_join.xml" value="0.264" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/fragment_1.xml" value="0.4" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/fragment_2.xml" value="0.264" />
-        <entry key="..\:/smarthome08072/app/src/main/res/layout/fragment_3.xml" value="0.2545885139135583" />
-        <entry key="..\:/smarthome08072/app/src/main/res/menu/btm_menu.xml" value="0.264" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/activity_join.xml" value="0.264" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/fragment_1.xml" value="0.22395833333333334" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/fragment_2.xml" value="0.1" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/fragment_3.xml" value="0.22395833333333334" />
+        <entry key="..\:/smarthome0925/smarthome0925/app/src/main/res/layout/fragment_blank.xml" value="0.10416666666666667" />
       </map>
     </option>
   </component>
