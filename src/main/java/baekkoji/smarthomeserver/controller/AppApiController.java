@@ -83,4 +83,5 @@ public class AppApiController {
         String result = controlData.setControlData(); // 앱에서 받은 데이터 DB에 저장.
         return result; //앱에 응답여부 반환 (ok)
     }
+
 }
